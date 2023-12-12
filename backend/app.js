@@ -9,16 +9,16 @@ const taskRoutes = require("./routes/taskRoutes");
 const profileRoutes = require("./routes/profileRoutes");
 
 app.use(express.json());
-let corsOptions = { 
-  origin : ['http://localhost:5001','http://localhost:3000'], 
-} 
+// let corsOptions = { 
+//   origin : ['http://localhost:5001','http://localhost:3000'], 
+// } 
  
-app.use(cors(corsOptions))
+// app.use(cors(corsOptions))
 
  app.use(cors());
 
 //const mongoUrl = process.env.MONGODB_URL;
-const mongoUrl = "mongodb://localhost:27017/task-manager";
+const mongoUrl = "mongodb+srv://atharvkadam11:<password>@cluster0.57rqskq.mongodb.net/?retryWrites=true&w=majority";
 //
 mongoose.connect(mongoUrl, err => {
   if (err) throw err;
