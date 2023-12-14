@@ -130,6 +130,3 @@ LIST App with Add, Delete, Edit, LocalStorage using React : https://youtu.be/eGA
 
 Login and Signup tutorial in React JS with node ,express and mongoDB in 2023 | MERN stack tutorial : https://youtu.be/S9eCBX-Re8A 
 
-React Website Templates | Get Free Ready To Use React Templates For React Project | React Templates : https://youtu.be/8M6qav8H9Hg 
-![image](https://github.com/atharvkadam11/mern_task_manager/assets/145072663/0494863b-b39a-4db8-8735-7fe92dc8c7b5)
-
